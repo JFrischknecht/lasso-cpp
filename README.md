@@ -7,14 +7,14 @@ I provide a minimal working implementation of the popular LASSO estimator for li
 
 The LASSO estimator is implemented with the well-known cyclic coordinate descent algorithm introduced by Friedman, Hastie and Tibshirani (2010) and described in detail in Hastie, Tibshirani, and Wainwright (2015, pp. 7-17). A data-adaptive grid of penalty parameters is built following the suggestions of Friedman, Hastie and Tibshirani (2010, p. 7). The main algorithm uses "warm-starts" and active set iteration to speed up the computations (see Friedman, Hastie and Tibshirani (2010, p. 7) and Hastie, Tibshirani, and Wainwright (2015, p. 17)).
 
-The optimal penalty parameter is picked via 5-fold cross-validation. Optimal in this context means minimizing the cross-validated RMSE (Root Mean Square Error). The program then re-estimates the LASSO model using the optimal penalty parameter, prints in-sample fit statistics to the console and exports the fitted values aswell as the estimated coefficients.
+The optimal penalty parameter is picked via 5-fold cross-validation. Optimal in this context means minimizing the cross-validated RMSE (Root Mean Square Error). The program then re-estimates the LASSO model using the optimal penalty parameter, prints in-sample fit statistics to the console and exports the fitted values as well as the estimated coefficients.
 
 
 ## How to use the program 
 
 This program requires two inputs. First, it requires a CSV-file containing the continuous/binary outcome variable. Second, it requires a CSV-file containing the continuous/binary predictor(s). The first row of each file (where column-names are usually placed) is not read. No thousands separator should be present in the CSV-files. A point should be used as decimal separator. Both files must consist of strictly numeric columns without missing values. None of the data should be standardized or centered beforehand. The user is responsible for cleaning and preparing the data first (e.g. deal with any missing values, one-hot-encode categorical predictors, etc.). Note that an intercept should not be included in the set of predictors.
 
-By default the name of the first file is assumed to be *outcome.csv* and the name of the second file is assumed to be *predictors.csv*.
+By default, the name of the first file is assumed to be *outcome.csv* and the name of the second file is assumed to be *predictors.csv*.
 
 To run the program:
 1. Download *lasso.exe*, *outcome.csv* and *predictors.csv* and save them together in a folder.
