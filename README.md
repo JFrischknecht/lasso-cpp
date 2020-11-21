@@ -23,6 +23,9 @@ You can deviate from the default file names by supplying two optional command-li
 D:\lasso_cpp-main>lasso.exe outcome_large.csv predictors_large.csv
 ```
 
+The program will produce two files: *lasso_fitted.csv* and *lasso_coefficients.csv* in the folder where the program was executed.
+The first contains the fitted values of the optimal model and the second contains the estimated coefficients of the optimal model, with the intercept being the first coefficient.
+
 ## References
 
 Friedman, J., Hastie, T., & Tibshirani, R. (2010). Regularization Paths for Generalized Linear Models via Coordinate Descent. Journal of Statistical Software, 33(1), 1 - 22. http://dx.doi.org/10.18637/jss.v033.i01
