@@ -24,7 +24,7 @@ D:\lasso_cpp-main>lasso.exe outcome_large.csv predictors_large.csv
 ```
 
 The program will produce two files: *lasso_fitted.csv* and *lasso_coefficients.csv* in the folder where the program was executed.
-The first contains the fitted values of the optimal model and the second contains the estimated coefficients of the optimal model, with the intercept being the first coefficient.
+The first file contains the fitted values of the optimal model and the second contains the estimated coefficients of the optimal model, with the intercept being the first coefficient.
 
 ## References
 
