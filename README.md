@@ -35,7 +35,7 @@ The program was tested on three different Windows 10 machines.
 
 ## Data to test the program
 
-*outcome.csv* and *predictors.csv* are small test datasets provided by the R package [glmnet](https://github.com/cran/glmnet).
+*outcome.csv* and *predictors.csv* are based on a small test dataset provided by the R package [glmnet](https://github.com/cran/glmnet).
 
 *outcome_large.csv* and *predictors_large.csv* contain simulated data spanning one million rows. The outcome is a standard normally distributed random variable. The set of predictors features an independently drawn Bernoulli random variable (*p = 0.5*) and an independently drawn standard normal random variable. Note that the outcome and the predictors are stochastically independent by construction.
 
