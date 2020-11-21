@@ -27,7 +27,7 @@ You can use data from differently named files by supplying two optional command-
 D:\lasso_cpp-main>lasso.exe outcome_large.csv predictors_large.csv
 ```
 
-The program will produce the files *lasso_fitted.csv* and *lasso_coefficients.csv* in the folder where the program was executed. The first file contains the fitted values of the optimal model and the second contains the estimated coefficients of the optimal model, with the intercept being the first coefficient.
+The program will produce the files *lasso_fitted.csv* and *lasso_coefficients.csv* in the folder where the program was executed. The first file contains the fitted values of the optimal model and the second file contains the estimated coefficients of the optimal model, with the intercept being the first coefficient.
 
 The program was tested and successfully run on three different Windows 10 machines.
 
