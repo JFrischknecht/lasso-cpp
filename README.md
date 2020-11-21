@@ -5,7 +5,7 @@ I provide a minimal working implementation of the popular LASSO estimator for li
 
 ## About
 
-The LASSO estimator is implemented with the well-known cyclic coordinate descent algorithm introduced by Friedman, Hastie and Tibshirani (2010) and described in detail in Hastie, Tibshirani, and Wainwright (2015, pp. 7-17). A data adaptive grid of penalty parameters is built following the suggestions of Friedman, Hastie and Tibshirani (2010, p. 7). The main algorithm uses "warm-starts" and active set-iteration to speed up the computations (see Friedman, Hastie and Tibshirani (2010, p. 7) and Hastie, Tibshirani, and Wainwright (2015, p. 17)).
+The LASSO estimator is implemented with the well-known cyclic coordinate descent algorithm introduced by Friedman, Hastie and Tibshirani (2010) and described in detail in Hastie, Tibshirani, and Wainwright (2015, pp. 7-17). A data adaptive grid of penalty parameters is built following the suggestions of Friedman, Hastie and Tibshirani (2010, p. 7). The main algorithm uses "warm-starts" and active set iteration to speed up the computations (see Friedman, Hastie and Tibshirani (2010, p. 7) and Hastie, Tibshirani, and Wainwright (2015, p. 17)).
 
 The optimal penalty parameter is picked via 5-fold cross-validation. Optimal in this context means minimizing the cross-validated RMSE (Root Mean Square Error). The program then re-estimates the LASSO model using the optimal penalty parameter, provides in-sample fit statistics in the console and exports the fitted values aswell as the estimated coefficients.
 
