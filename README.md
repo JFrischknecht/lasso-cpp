@@ -31,11 +31,9 @@ The first file contains the fitted values of the optimal model and the second co
 
 ## Data to test the program
 
-*outcome.csv* and *predictors.csv* are small test datasets provided by the R package[glmnet](https://github.com/cran/glmnet).
+*outcome.csv* and *predictors.csv* are small test datasets provided by the R package [glmnet](https://github.com/cran/glmnet).
 
 *outcome_large.csv* and *predictors_large.csv*
-
-The data was obtained from the R package glmnet,
 
 
 ## References
