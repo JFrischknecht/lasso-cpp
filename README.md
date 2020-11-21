@@ -22,8 +22,7 @@ To run the program:
 ```shell
 D:\lasso_cpp-main>lasso.exe
 ```
-
-You can deviate from the default file names by supplying two optional command-line arguments. In this case you always need to supply the name of both files. In the Windows command line, e.g.
+You can use data from differently named files by supplying two optional command-line arguments. In that case you always need to supply the name of both files. In the Windows command line, e.g.
 ```shell
 D:\lasso_cpp-main>lasso.exe outcome_large.csv predictors_large.csv
 ```
