@@ -17,7 +17,7 @@ This program requires two inputs. First it requires a CSV-file containing the co
 By default the name of the first file is assumed to be *outcome.csv* and the name of the second file is assumed to be *predictors.csv*.
 
 To run the program:
-1. Download *lasso.exe*, *outcome.csv*, *predictors.csv* and save them together in a folder.
+1. Download *lasso.exe*, *outcome.csv* and *predictors.csv* and save them together in a folder.
 2. Start up a command-line (e.g. *cmd* on Windows) in that folder and execute *lasso.exe* in the command line. In the Windows command line, e.g.
 ```shell
 D:\lasso_cpp-main>lasso.exe
