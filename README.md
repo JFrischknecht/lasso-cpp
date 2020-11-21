@@ -15,6 +15,10 @@ To run the program
 1. Download *lasso.exe* and save it together with *outcome.csv* and *predictors.csv* in a folder.
 2. Start up a command-line (e.g. *cmd* on Windows) in this folder and execute *lasso.exe* in the command line.
 
+```shell
+lasso.exe
+```
+
 You can deviate from the default names of the files by supplying two optinal command-line arguments:
 
 
