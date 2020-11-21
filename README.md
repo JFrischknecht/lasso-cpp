@@ -36,7 +36,7 @@ The program was tested and successfully run on three different Windows 10 machin
 
 *outcome.csv* and *predictors.csv* are based on a small test dataset provided by the R package [glmnet](https://github.com/cran/glmnet).
 
-*outcome_large.csv* and *predictors_large.csv* contain simulated data spanning one million rows. The outcome is an independently drawn Bernoulli random variable (*p = 0.5*). The set of predictors features an independently drawn standard normal random variable and an independently drawn Bernoulli random variable (*p = 0.5*). Note that the outcome and the predictors are thus stochastically independent by construction.
+*outcome_large.csv* and *predictors_large.csv* contain simulated data spanning one million rows. The outcome is an independently drawn Bernoulli random variable (*p = 0.5*). The set of predictors features an independently drawn standard normal random variable and an independently drawn Bernoulli random variable (*p = 0.5*). Note that the outcome and the predictors thus are stochastically independent by construction.
 
 ## References
 
