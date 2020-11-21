@@ -13,12 +13,12 @@ By default the name of the first file is assumed to be *outcome.csv* and the nam
 
 To run the program:
 1. Download *lasso.exe* and save it together with *outcome.csv* and *predictors.csv* in a folder.
-2. Start up a command-line (e.g. *cmd* on Windows) in this folder and execute *lasso.exe* in the command line. For the Windows command line, e.g.
+2. Start up a command-line (e.g. *cmd* on Windows) in this folder and execute *lasso.exe* in the command line. In the Windows command line, e.g.
 ```shell
 D:\lasso_cpp-main>lasso.exe
 ```
 
-You can deviate from the default file names by supplying two optional command-line arguments. In this case you always need to supply the name of both files. For the Windows command line, E.g.
+You can deviate from the default file names by supplying two optional command-line arguments. In this case you always need to supply the name of both files. In the Windows command line, e.g.
 ```shell
 D:\lasso_cpp-main>lasso.exe outcome_large.csv predictors_large.csv
 ```
