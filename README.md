@@ -2,11 +2,13 @@
 
 I provide a minimal working implementation of the popular LASSO estimator for linear models with the programming language C++. 
 
+
 ## About
 
 The LASSO estimator is implemented with the well-known cyclic coordinate descent algorithm introduced by Friedman, Hastie and Tibshirani (2010) and described in detail in Hastie, Tibshirani, and Wainwright (2015, pp. 7-17). A data adaptive grid of penalty parameters is built following the suggestions of Friedman, Hastie and Tibshirani (2010, p. 7). The main algorithm uses "warm-starts" and active set-iteration to speed up the computations (see Friedman, Hastie and Tibshirani (2010, p. 7) and Hastie, Tibshirani, and Wainwright (2015, p. 17)).
 
 The optimal penalty parameter is picked via 5-fold cross-validation. Optimal in this context means minimizing the cross-validated RMSE (Root Mean Square Error). The program then estimates the LASSO model using the optimal penalty parameter, provides in-sample fit statistics in the console and exports the fitted values of the model and the estimated coefficients.
+
 
 ## How to use the program 
 
@@ -28,6 +30,9 @@ D:\lasso_cpp-main>lasso.exe outcome_large.csv predictors_large.csv
 
 The program will produce two files, *lasso_fitted.csv* and *lasso_coefficients.csv*, in the folder where the program was executed.
 The first file contains the fitted values of the optimal model and the second contains the estimated coefficients of the optimal model, with the intercept being the first coefficient.
+
+The program was tested on three different Windows 10 machines.
+
 
 ## Data to test the program
 
