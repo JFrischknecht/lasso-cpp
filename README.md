@@ -3,6 +3,7 @@ A minimal working implementation of the LASSO estimator for linear models with C
 
 ## About
 
+I provide a minimal working implementation of the popular LASSO estimator for linear models with the programming language C++. The LASSO estimator is implemented with the well-known cyclic coordinate descent algorithm introduced by Friedman, Hastie and Tibshirani (2010) and described in detail in Hastie, Tibshirani, and Wainwright (2015, pp. 7-17). A data adaptive grid of penalty parameters is built following the suggestions of Friedman, Hastie and Tibshirani (2010, p. 7). The main algorithm uses "warm-starts" and active set-iteration to speed up the computations (ideas suggested by Friedman, Hastie and Tibshirani (2010, p. 7)).
 
 
 ## How to use the program 
