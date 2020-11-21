@@ -9,7 +9,7 @@ The LASSO estimator is implemented with the well-known cyclic coordinate descent
 
 ## How to use the program 
 
-This program requires two inputs. First it requires a CSV-file containing the continuous/binary outcome variable. Second it requires a CSV-file containing the continuous/binary predictor(s). The first row of each file (where column-names are usually placed) is not read. Both files must consist of only numeric columns without missing values. The user is responsible to clean and prepare the data first (e.g. deal with any missing values, one-hot-encode categorical predictors, etc.). Note that an intercept should not be included in the set of predictors.
+This program requires two inputs. First it requires a CSV-file containing the continuous/binary outcome variable. Second it requires a CSV-file containing the continuous/binary predictor(s). The first row of each file (where column-names are usually placed) is not read. Both files must consist of only numeric columns without missing values. None of the data should be standardized or centered beforehand. The user is responsible to clean and prepare the data first (e.g. deal with any missing values, one-hot-encode categorical predictors, etc.). Note that an intercept should not be included in the set of predictors.
 
 By default the name of the first file is assumed to be *outcome.csv* and the name of the second file is assumed to be *predictors.csv*.
 
